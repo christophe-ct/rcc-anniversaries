@@ -59,7 +59,6 @@ PAUSE_SEC = 1.0  # Pause between API calls to be polite
 # ==============================================================
 # 2. Wikidata Query Functions
 # ==============================================================
-# ... (this section remains the same) ...
 def query_wikidata_crimes(year_cutoff):
     """Queries the Wikidata SPARQL endpoint for criminal incidents."""
     print("--- Wikidata: Preparing SPARQL query... ---")
@@ -142,7 +141,6 @@ def process_wikidata_results(data, rows, events_by_date):
 # ==============================================================
 # 3. Main Execution
 # ==============================================================
-# ... (this section remains the same) ...
 def main():
     """Main function to run the scraper and export files."""
     session = requests.Session()
